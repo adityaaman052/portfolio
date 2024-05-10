@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4fd48d20c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.png" alt="logo" classs="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1 class="sub-title">Hi, I'm <span>Aditya</span> Aman <br> from CUSAT</h1>
+            </div>
+        </div>
+
+    </div>
+    <!---------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/user1.png" alt=""></div>
+                <div class="about-col-2"><h1>About Me</h1>
+                    <p>Hello Everyone! I am Aditya Aman,currently pursuing a Bachelor's degree in Computer Science,with a keen interest in web development. Engaging in website development and continuously learning new technologies is a passion of mine.I have completed numerous small-scale projects utilizing HTML,CSS, and JS. These projects are typically crafted with visually appealing designs using CSS, ensuring responsiveness across various devices.  </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Developing Web-pages and websites</li>
+                            <li><span>Problem solving skill</span><br>Possessing adept problem-solving and analytical skills along with the skill of optimization of system performance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Tech Team member at SEDS CUSAT</li>
+                            <li><span>Mini-Projects</span><br>Accomplished several mini-projects, having a commendable skill for developing sites and work on Big-projects. </li>
+                            <li><span>Great Learning Academy</span><br>Completed certified course on Artificial Intelligence from Great Learning Academy.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-current</span><br>B-Tech at Cochin University of Science & Technology, Kochi</li>
+                            <li><span>2022</span><br>Intermediate Education from Patna,BIHAR</li>
+                            <li><span>2020</span><br>Matriculation Education accomplished from Patna,BIHAR</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------services ---- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I possess the capacity to deliver exceptional web designs and proficiently amend existing websites to align precisely with the company's requirements.</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Having dedicated significant time to honing my skills in UI/UX design, I have amassed ample expertise to conceptualize the blueprint of a web model in advance.</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Problem Solving</h2>
+                    <p>I have cultivated extensive expertise in the technical domain,which proves invaluable in resolving the company's technical issues and ensuring system optimization.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>The website is meticulously crafted using HTML and CSS to offer users an aesthetically pleasing interface while striving to replicate the interactivity of its prototype to the fullest extent possible.</p>
+
+                        <a href="https://techieroot.freewebhostmost.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>This Weather Application , constructed through the integration of HTML,CSS and JS is intricately engineered to interact with an API,soliciting user input in the form of city names to dynamically display the corresponding weather conditions.</p>
+
+                        <a href="https://adityaaman052.github.io/test/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Product Page Application</h3>
+                        <p>This Product Page application furnishes an uncomplicated yet engaging marketing environment for users to interact with, meticulously constructed using HTML,CSS and Javascript.</p>
+
+                        <a href="https://adityaaman052.github.io/Product_Page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/adityaaman052" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>adityaaman.codex@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>+91 7488906183</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div> 
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Aditya Aman.Made with <i class="fa-solid fa-heart"></i> by Aditya</p>
+        </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAqfZIwIkWXljrBQZYJMOLfQbMcIcfQQpLhZaj8TKcqtkoCAPi8UkiwhPGRZwY3eZB/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
